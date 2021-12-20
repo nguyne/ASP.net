@@ -1,0 +1,98 @@
+﻿/*Nav*/
+.main {
+    background-color: #FF6700;
+}
+.bf-footer {
+    background-color: #24272e;
+}
+/*Tìm kiếm*/
+.eader-search-form {
+    width: 225px;
+    height: 30px;
+    font-size: 10px;
+    margin-left: 19px;
+    border-radius: 10px;
+}
+
+
+/*form đăng nhập*/
+.dangnhap {
+    display: flex;
+    margin-left: 50px; 
+}
+.login{
+    list-style-type: none;
+}
+.header {
+    background-color: #FF6700;
+}
+
+.dangki {
+    margin-left: 30px;
+}
+#users {
+    color: #ddd; 
+    font-size: 22px;
+    text-decoration: none;
+}
+/*Giỏ hàng*/
+.grup {
+    display: flex;
+}
+.cart-text {
+    display: none;
+}
+.logo-cart {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #000;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+.logo-cart::after {
+    transition: height .1s ease-out;
+    bottom: 100%;
+    margin-bottom: 0;
+    margin-left: -7px;
+    height: 8px;
+    width: 14px;
+    left: 45%;
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    border: 2px solid #000;
+    border-top-left-radius: 99px;
+    border-top-right-radius: 99px;
+    border-bottom: 0;    
+}
+
+.cart:hover .logo-cart {
+   background-color: #000;
+   color: #fff;
+}
+
+.cart:hover .logo-cart::after {
+    height: 10px;
+}
+.btn{
+    border-radius: 50px;
+    background-color: orange;
+}
+.form-control {
+    border-radius: 50px;
+}
+/*....................FOOTER/*....................*/
+.footer-items {
+    padding: 40px 0;
+    border-bottom: 0.1px solid #ddd;
+}
+
+.Address {
+    text-decoration: none;
+}
+
